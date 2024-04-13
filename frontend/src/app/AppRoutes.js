@@ -9,6 +9,7 @@ import Text2Audio from "../components/Text2Audio";
 import Plots from "../components/Plots";
 import Todo from "../components/Todo";
 import Chat from "../components/Chat";
+import StyleTransfer from "../components/StyleTransfer";
 
 const AppRouter = (props) => {
 
@@ -26,6 +27,7 @@ const AppRouter = (props) => {
         <Route path="/plots" exact component={Plots} />
         <Route path="/test" exact component={Blank} />
         <Route path="/chat" exact component={Chat} />
+        <Route path="/styletransfer" exact component={StyleTransfer} />
         <Route component={Error404} />
       </Switch>
     </React.Fragment>

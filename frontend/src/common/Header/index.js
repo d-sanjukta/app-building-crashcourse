@@ -54,7 +54,7 @@ const Header = (props) => {
                     </IconButton>
                     <Link to="/" className={classes.appLink}>
                         <Typography className={classes.appTitle} >
-                            ⚡ App Building Crash Course
+                            ⚡ App Building Crash Course - Change
                         </Typography>
                     </Link>
 
